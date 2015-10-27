@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.krossovochkin.adsl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".textinputlayout.TextInputLayoutBasicsActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".textinputlayout.TextInputLayoutErrorsActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".textinputlayout.TextInputLayoutCountersActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".fab.FloatingActionButtonActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".snackbar.SnackbarActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".tablayout.TabLayoutViewPagerFixedActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".tablayout.TabLayoutViewPagerScrollActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".tablayout.TabLayoutManualActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutFabAndSnackbarActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".appbarlayout.AppBarLayoutActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutAppBarLayoutScrollActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutAppBarLayoutScrollEnterAlwaysActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutAppBarLayoutScrollEnterAlwaysSnapActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutAnchorActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutCustomButtonAndSnackbarActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".coordinatorlayout.CoordinatorLayoutFabScrollBehaviorActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".collapsingtoolbarlayout.CollapsingToolbarLayoutScrollActivity"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".collapsingtoolbarlayout.CollapsingToolbarLayoutScrollExitUntilCollapsedActivity"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".collapsingtoolbarlayout.CollapsingToolbarLayoutScrollEnterAlwaysEnterAlwaysCollapsedActivity"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".collapsingtoolbarlayout.CollapsingToolbarLayoutTextProtectionActivity"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:parentActivityName=".MainActivity"/>
+    </application>
+
+</manifest>
