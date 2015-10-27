@@ -4,7 +4,7 @@ Samples for Android Design Support Library. From simplest to more difficult.
 # More info coming soon
 
 # License
-Source code
+**Source code**
 ```
 Copyright 2015 Vasya Drobushkov
 
@@ -21,8 +21,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-Icons
+**Icons**<br>
 https://materialdesignicons.com/
 
-Picture with mushrooms (CC0 Public Domain):
+**Picture with mushrooms** (`CC0 Public Domain`):<br>
 https://pixabay.com/en/mushroom-fungi-fungus-many-food-389421/
