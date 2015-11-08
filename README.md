@@ -1,5 +1,6 @@
 # AndroidDesignSupportLibrarySample
-Samples for Android Design Support Library. From simplest to more difficult.<br>
+Samples for Android Design Support Library. <br>
+From simplest to more difficult.<br>
 You can find slides for this project at [SpeakerDeck](https://speakerdeck.com/krossovochkin/android-design-support-library) <br>
 As slides contain a coupe of GIF animations you can get slides from my Google Drive:
 - [ODP Version](https://drive.google.com/file/d/0BxPrxGcUSktgVjdNay1hMHpfaTA/view?usp=sharing) - Original
