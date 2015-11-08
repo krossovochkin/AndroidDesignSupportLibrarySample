@@ -1,7 +1,22 @@
 # AndroidDesignSupportLibrarySample
-Samples for Android Design Support Library. From simplest to more difficult.
+Samples for Android Design Support Library. From simplest to more difficult.<br>
+You can find slides for this project at [SpeakerDeck](https://speakerdeck.com/krossovochkin/android-design-support-library) and also in repository (as slides contain a couple of GIF animations)
 
-# More info coming soon
+# Contents
+- Android Design Support Library overview
+- Navigation View (basic example, items customization)
+- Text Input Layout (basic example, errors, counters)
+- Floating Action Button (basic example)
+- Snack Bar (basic example)
+- Tab Layout (basic examples for fixed/scrollable tabs, integration with ViewPager, manually created tabs, listeners overview)
+- App Bar Layout (basic example)
+- Coordinator Layout (overview)
+- Coordinator Layout and FAB (basic FAB & Snack Bar behavior)
+- Coordinator Layout and App Bar Layout (basic scrolling behavior example)
+- Coordinator view Anchoring (FAB example)
+- Coordinator Layout Custom Behavior (FAB-like Button behavior)
+- Collapsing Toolbar Layout (overview and basic example)
+- Collapsing Toolbar Layout Text Protection (basic example)
 
 # License
 **Source code**
