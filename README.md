@@ -27,7 +27,7 @@ As slides contain a coupe of GIF animations you can get slides from my Google Dr
 # License
 **Source code**
 ```
-Copyright 2015 Vasya Drobushkov
+Copyright 2016 Vasya Drobushkov
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
