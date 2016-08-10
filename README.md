@@ -21,6 +21,8 @@ As slides contain a coupe of GIF animations you can get slides from my Google Dr
 - Coordinator Layout Custom Behavior (FAB-like Button behavior)
 - Collapsing Toolbar Layout (overview and basic example)
 - Collapsing Toolbar Layout Text Protection (basic example)
+- Bottom Sheets (basic example)
+- Bottom Sheets (DialogFragment basic example)
 
 # License
 **Source code**
