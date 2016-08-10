@@ -35,6 +35,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.krossovochkin.adsl.appbarlayout.AppBarLayoutActivity;
+import com.krossovochkin.adsl.bottomsheets.BottomSheetDialogFragmentActivity;
+import com.krossovochkin.adsl.bottomsheets.BottomSheetsActivity;
 import com.krossovochkin.adsl.collapsingtoolbarlayout.CollapsingToolbarLayoutScrollActivity;
 import com.krossovochkin.adsl.collapsingtoolbarlayout.CollapsingToolbarLayoutScrollEnterAlwaysEnterAlwaysCollapsedActivity;
 import com.krossovochkin.adsl.collapsingtoolbarlayout.CollapsingToolbarLayoutScrollExitUntilCollapsedActivity;
@@ -148,7 +150,9 @@ public class MainActivity extends AppCompatActivity {
             "CollapsingToolbarLayout, NestedScrollView, FAB Behavior - scroll",
             "CollapsingToolbarLayout, ... - scroll|exitUntilCollapsed",
             "CollapsingToolbarLayout, ... - scroll|enterAlways|enterAlwaysCollapsed",
-            "CollapsingToolbarLayout - Text Protection"
+            "CollapsingToolbarLayout - Text Protection",
+			"Bottom Sheets - Basics",
+            "Bottom Sheets - Dialog Fragment"
         };
         listView.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items));
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -214,6 +218,12 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 19:
                         startActivity(new Intent(MainActivity.this, CollapsingToolbarLayoutTextProtectionActivity.class));
+                        break;
+					case 20:
+						startActivity(new Intent(MainActivity.this, BottomSheetsActivity.class));
+						break;
+                    case 21:
+                        startActivity(new Intent(MainActivity.this, BottomSheetDialogFragmentActivity.class));
                         break;
                 }
             }

@@ -83,6 +83,12 @@
             android:name=".collapsingtoolbarlayout.CollapsingToolbarLayoutTextProtectionActivity"
             android:theme="@style/AppTheme.Fullscreen"
             android:parentActivityName=".MainActivity"/>
+        <activity android:name=".bottomsheets.BottomSheetsActivity"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".bottomsheets.BottomSheetDialogFragmentActivity"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
